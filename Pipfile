@@ -16,12 +16,12 @@ pyflakes = "*"
 pylint = "*"
 tox = "*"
 awscli = "*"
+fleece = {version="*", extras = ["cli"]}
 
 
 [packages]
 
 "boto3" = "*"
-fleece = {extras = ["cli"]}
 
 
 [requires]
