@@ -11,15 +11,17 @@ name = "pypi"
 pytest = "*"
 pytest-cov = "*"
 pytest-pylint = "*"
-pytest-flake8 = "*"
+"pytest-flake8" = "*"
 pyflakes = "*"
 pylint = "*"
 tox = "*"
 awscli = "*"
 
+
 [packages]
 
 "boto3" = "*"
+fleece = {extras = ["cli"]}
 
 
 [requires]
