@@ -14,7 +14,6 @@ pytest-pylint = "*"
 "pytest-flake8" = "*"
 pyflakes = "*"
 pylint = "*"
-tox = "*"
 awscli = "*"
 fleece = {version="*", extras = ["cli"]}
 
@@ -22,6 +21,8 @@ fleece = {version="*", extras = ["cli"]}
 [packages]
 
 "boto3" = "*"
+"jinja2" = "*"
+tox = "*"
 
 
 [requires]
