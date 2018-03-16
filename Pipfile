@@ -23,6 +23,7 @@ fleece = {version="*", extras = ["cli"]}
 "boto3" = "*"
 "jinja2" = "*"
 pip-tools = "*"
+safety = "*"
 tox = "*"
 
 
