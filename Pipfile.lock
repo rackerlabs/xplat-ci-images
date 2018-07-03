@@ -359,10 +359,9 @@
         },
         "fleece": {
             "hashes": [
-                "sha256:b86338acbbd3d4009cc58b7ee34d9c0ccf3b83bc8fe5714166be8388c240eb66",
-                "sha256:abdbd38c78a75c338eda5f332172a6da8e859260582bfe5a0c9a9d34009bf635"
+                "sha256:d3b510f3b7a0ea1e7a0f838c014e05f9a2143a5b5d8da674c95d7a713d719219"
             ],
-            "version": "==0.16.5"
+            "version": "==0.16.8"
         },
         "funcsigs": {
             "hashes": [
