@@ -1,0 +1,15 @@
+awscli
+boto3
+docker
+flake8
+fleece[cli]
+jinja2
+pip-tools
+pytest
+pytest-cov
+pytest-pylint
+pytest-flake8
+pyflakes
+pylint
+safety
+tox
