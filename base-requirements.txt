@@ -2,7 +2,7 @@ awscli
 boto3
 docker
 flake8
-fleece[cli]
+fleece[cli]==0.18.3
 jinja2
 pip-tools
 pytest
