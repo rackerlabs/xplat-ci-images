@@ -21,7 +21,7 @@ docutils==0.14            # via awscli, botocore
 dparse==0.4.1             # via safety
 first==2.0.1              # via pip-tools
 flake8==3.5.0
-fleece[cli]==0.18.3
+fleece[cli]==0.18.4
 idna==2.7                 # via requests
 isort==4.3.4              # via pylint
 jinja2==2.10
