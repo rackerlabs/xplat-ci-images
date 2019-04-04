@@ -1,4 +1,4 @@
-FROM circleci/python:3.6.1
+FROM circleci/python:3.6-stretch
 ADD requirements.txt .
 RUN sudo apt-get update
 RUN sudo apt-get install shellcheck
