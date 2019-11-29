@@ -6,83 +6,63 @@
 #
 astroid==2.2.5            # via pylint
 atomicwrites==1.3.0       # via pytest
-attrs==19.1.0             # via jsonschema, pytest
+attrs==19.1.0             # via pytest
 awscli==1.16.189
 boto3==1.9.179
 botocore==1.12.179        # via awscli, boto3, s3transfer
-cachecontrol[filecache]==0.12.5  # via poetry
-cachy==0.3.0              # via poetry
 certifi==2019.6.16        # via requests
 chardet==3.0.4            # via requests
-cleo==0.7.6               # via poetry
 click==7.0                # via pip-tools, safety
-clikit==0.4.0             # via cleo, poetry
 colorama==0.3.9           # via awscli
 coverage==4.5.3           # via pytest-cov
 docker-pycreds==0.4.0     # via docker
 docker==3.5.0
 docutils==0.14            # via awscli, botocore
 dparse==0.4.1             # via safety
-entrypoints==0.3          # via flake8, keyring
+entrypoints==0.3          # via flake8
 filelock==3.0.12          # via tox
 flake8==3.7.7
 fleece[cli]==0.18.4
-html5lib==1.0.1           # via poetry
 idna==2.8                 # via requests
-importlib-metadata==0.23  # via jsonschema, pluggy, poetry, pytest, tox
+importlib-metadata==0.23  # via pluggy, pytest, tox
 isort==4.3.21             # via pylint
 jinja2==2.10.1
 jmespath==0.9.4           # via boto3, botocore
-jsonschema==3.2.0         # via poetry
-keyring==19.2.0           # via poetry
 lazy-object-proxy==1.4.1  # via astroid
-lockfile==0.12.2          # via cachecontrol
 markupsafe==1.1.1         # via jinja2
 mccabe==0.6.1             # via flake8, pylint
 more-itertools==7.1.0     # via pytest
-msgpack==0.6.2            # via cachecontrol
 packaging==19.0           # via dparse, pytest, safety, tox
-pastel==0.1.1             # via clikit
-pexpect==4.7.0            # via poetry
 pip-tools==3.8.0
-pkginfo==1.5.0.1          # via poetry
 pluggy==0.12.0            # via pytest, tox
-poetry==1.0.0b4
-ptyprocess==0.6.0         # via pexpect
 py==1.8.0                 # via pytest, tox
 pyasn1==0.4.5             # via rsa
 pycodestyle==2.5.0        # via flake8
 pyflakes==2.1.1
-pylev==1.3.0              # via clikit
 pylint==2.3.1
-pyparsing==2.4.0          # via packaging, poetry
-pyrsistent==0.14.11       # via jsonschema, poetry
+pyparsing==2.4.0          # via packaging
 pytest-cov==2.7.1
 pytest-flake8==1.0.4
 pytest-pylint==0.14.0
 pytest==4.6.3
 python-dateutil==2.8.0    # via botocore
 pyyaml==5.1
-requests-toolbelt==0.8.0  # via poetry
-requests==2.22.0          # via cachecontrol, docker, fleece, poetry, requests-toolbelt, safety
+requests==2.22.0          # via docker, fleece, safety
 rsa==3.4.2                # via awscli
 ruamel.yaml==0.15.97      # via fleece
 s3transfer==0.2.1         # via awscli, boto3
 safety==1.8.5
-shellingham==1.3.1        # via poetry
-six==1.12.0               # via astroid, docker, docker-pycreds, dparse, fleece, html5lib, jsonschema, packaging, pip-tools, pyrsistent, pytest, pytest-pylint, python-dateutil, structlog, tox, websocket-client
+six==1.12.0               # via astroid, docker, docker-pycreds, dparse, fleece, packaging, pip-tools, pytest, pytest-pylint, python-dateutil, structlog, tox, websocket-client
 structlog==19.1.0         # via fleece
 toml==0.10.0              # via tox
-tomlkit==0.5.8            # via poetry
 tox==3.13.1
 typed-ast==1.4.0          # via astroid
 urllib3==1.25.3           # via botocore, requests
 virtualenv==16.6.1        # via tox
 wcwidth==0.1.7            # via pytest
-webencodings==0.5.1       # via html5lib
 websocket-client==0.56.0  # via docker
 wrapt==1.11.2             # via astroid, fleece
 zipp==0.5.1               # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
-# setuptools==42.0.1        # via jsonschema, safety
+# setuptools==42.0.1        # via safety
