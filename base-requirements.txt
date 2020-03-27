@@ -13,4 +13,5 @@ pytest-flake8
 pyflakes
 pylint
 safety
+taskipy
 tox
