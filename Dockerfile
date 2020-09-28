@@ -9,6 +9,6 @@ RUN sudo pip install -r requirements.txt
 # We will remove it and reinstall it with the "proper" install script that vendors its dependencies
 # The default home for poetry doesn't get added to the circle users path. Overridding POETRY_HOME
 ENV POETRY_HOME="/home/circleci/.local"
-ADD get-poetry.py .
+ADD --chown=circleci:circleci https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py /tmp/get-poetry.py
 RUN sudo pip uninstall poetry cleo -y
-RUN python get-poetry.py -y
+RUN python /tmp/get-poetry.py -y
