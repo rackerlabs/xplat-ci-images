@@ -4,71 +4,68 @@
 #
 #    pip-compile --output-file=requirements.txt base-requirements.txt
 #
-appdirs==1.4.3            # via virtualenv
-astroid==2.3.3            # via pylint
-attrs==19.3.0             # via pytest
-awscli==1.18.31           # via -r base-requirements.txt
-boto3==1.12.31            # via -r base-requirements.txt, fleece
-botocore==1.15.31         # via awscli, boto3, s3transfer
-certifi==2019.11.28       # via pipenv, requests
+appdirs==1.4.4            # via virtualenv
+astroid==2.4.2            # via pylint
+attrs==20.2.0             # via pytest
+awscli==1.18.147          # via -r base-requirements.txt
+boto3==1.15.6             # via -r base-requirements.txt, fleece
+botocore==1.18.6          # via awscli, boto3, s3transfer
+certifi==2020.6.20        # via requests
 chardet==3.0.4            # via requests
-click==7.1.1              # via pip-tools, safety
+click==7.1.2              # via pip-tools, safety
 colorama==0.4.3           # via awscli
-coverage==5.0.4           # via pytest-cov
-distlib==0.3.0            # via virtualenv
+coverage==5.3             # via pytest-cov
+distlib==0.3.1            # via virtualenv
 docker-pycreds==0.4.0     # via docker
 docker==3.5.0             # via -r base-requirements.txt, fleece
-docutils==0.15.2          # via awscli, botocore
-dparse==0.5.0             # via safety
-entrypoints==0.3          # via flake8
+docutils==0.15.2          # via awscli
+dparse==0.5.1             # via safety
 filelock==3.0.12          # via tox, virtualenv
-flake8==3.7.9             # via -r base-requirements.txt, pytest-flake8
-fleece[cli]==0.18.7       # via -r base-requirements.txt
-idna==2.9                 # via requests
-importlib-metadata==1.6.0  # via importlib-resources, pluggy, pytest, tox, virtualenv
-importlib-resources==1.4.0  # via virtualenv
-isort==4.3.21             # via pylint
-jinja2==2.11.1            # via -r base-requirements.txt
-jmespath==0.9.5           # via boto3, botocore
+flake8==3.8.3             # via -r base-requirements.txt, pytest-flake8
+fleece[cli]==0.19.0       # via -r base-requirements.txt
+idna==2.10                # via requests
+importlib-metadata==1.7.0  # via flake8, pluggy, pytest, tox, virtualenv
+importlib-resources==3.0.0  # via virtualenv
+iniconfig==1.0.1          # via pytest
+isort==5.5.3              # via pylint
+jinja2==2.11.2            # via -r base-requirements.txt
+jmespath==0.10.0          # via boto3, botocore
 lazy-object-proxy==1.4.3  # via astroid
 markupsafe==1.1.1         # via jinja2
 mccabe==0.6.1             # via flake8, pylint
-more-itertools==8.2.0     # via pytest
-packaging==20.3           # via dparse, pytest, safety, tox
-pip-tools==4.5.1          # via -r base-requirements.txt
-pipenv==2018.11.26        # via dparse
+packaging==20.4           # via dparse, pytest, safety, tox
+pip-tools==5.3.1          # via -r base-requirements.txt
 pluggy==0.13.1            # via pytest, tox
-py==1.8.1                 # via pytest, tox
+psutil==5.7.2             # via taskipy
+py==1.9.0                 # via pytest, tox
 pyasn1==0.4.8             # via rsa
-pycodestyle==2.5.0        # via flake8
-pyflakes==2.1.1           # via -r base-requirements.txt, flake8
-pylint==2.4.4             # via -r base-requirements.txt, pytest-pylint
-pyparsing==2.4.6          # via packaging
-pytest-cov==2.8.1         # via -r base-requirements.txt
-pytest-flake8==1.0.4      # via -r base-requirements.txt
-pytest-pylint==0.15.1     # via -r base-requirements.txt
-pytest==5.4.1             # via -r base-requirements.txt, pytest-cov, pytest-flake8, pytest-pylint
+pycodestyle==2.6.0        # via flake8
+pyflakes==2.2.0           # via -r base-requirements.txt, flake8
+pylint==2.6.0             # via -r base-requirements.txt, pytest-pylint
+pyparsing==2.4.7          # via packaging
+pytest-cov==2.10.1        # via -r base-requirements.txt
+pytest-flake8==1.0.6      # via -r base-requirements.txt
+pytest-pylint==0.17.0     # via -r base-requirements.txt
+pytest==6.1.0             # via -r base-requirements.txt, pytest-cov, pytest-flake8, pytest-pylint
 python-dateutil==2.8.1    # via botocore
 pyyaml==5.3.1             # via -r base-requirements.txt, awscli, dparse, fleece
-requests==2.23.0          # via docker, fleece, safety
-rsa==3.4.2                # via awscli
-ruamel.yaml.clib==0.2.0   # via ruamel.yaml
-ruamel.yaml==0.16.10      # via fleece
+requests==2.24.0          # via docker, fleece, safety
+rsa==4.5                  # via awscli
+ruamel.yaml.clib==0.2.2   # via ruamel.yaml
+ruamel.yaml==0.16.12      # via fleece
 s3transfer==0.3.3         # via awscli, boto3
-safety==1.8.7             # via -r base-requirements.txt
-six==1.14.0               # via astroid, docker, docker-pycreds, fleece, packaging, pip-tools, python-dateutil, structlog, tox, virtualenv, websocket-client
+safety==1.9.0             # via -r base-requirements.txt
+six==1.15.0               # via astroid, docker, docker-pycreds, fleece, packaging, pip-tools, python-dateutil, structlog, tox, virtualenv, websocket-client
 structlog==20.1.0         # via fleece
-taskipy==1.2.1            # via -r base-requirements.txt
-toml==0.10.0              # via dparse, taskipy, tox
-tox==3.14.6               # via -r base-requirements.txt
+taskipy==1.3.0            # via -r base-requirements.txt
+toml==0.10.1              # via dparse, pylint, pytest, pytest-pylint, taskipy, tox
+tox==3.20.0               # via -r base-requirements.txt
 typed-ast==1.4.1          # via astroid
-urllib3==1.25.8           # via botocore, requests
-virtualenv-clone==0.5.4   # via pipenv
-virtualenv==20.0.15       # via pipenv, tox
-wcwidth==0.1.9            # via pytest
+urllib3==1.25.10          # via botocore, requests
+virtualenv==20.0.31       # via tox
 websocket-client==0.57.0  # via docker
-wrapt==1.11.2             # via astroid, fleece
-zipp==3.1.0               # via importlib-metadata, importlib-resources
+wrapt==1.12.1             # via astroid, fleece
+zipp==3.2.0               # via importlib-metadata, importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
