@@ -50,7 +50,7 @@ pytest==6.1.0             # via -r base-requirements.txt, pytest-cov, pytest-fla
 python-dateutil==2.8.1    # via botocore
 pyyaml==5.3.1             # via -r base-requirements.txt, awscli, dparse, fleece
 requests==2.24.0          # via docker, fleece, safety
-rsa==4.5                  # via awscli
+rsa==4.7                  # via awscli
 ruamel.yaml.clib==0.2.2   # via ruamel.yaml
 ruamel.yaml==0.16.12      # via fleece
 s3transfer==0.3.3         # via awscli, boto3
